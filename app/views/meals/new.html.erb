@@ -1,0 +1,10 @@
+<h1>Select your Meal Course</h1>
+<h2> Please have a look at our Wine list.</h2>
+
+<%= simple_form_for @meal do |f| %>
+  <%= f.input :title %>
+  <%= f.input :description %>
+   <br />
+  <%= f.submit :'Order meal' %>
+
+<% end %>
